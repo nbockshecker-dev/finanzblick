@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Finanzblick</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      background: #f5f7fb;
+      color: #102033;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 56px 24px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      margin: 0 0 12px;
+    }
+
+    h2 {
+      margin-top: 36px;
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-size: 1.05rem;
+    }
+
+    .subtitle {
+      font-size: 1.25rem;
+      color: #43546a;
+      margin-bottom: 32px;
+    }
+
+    .links {
+      margin-top: 36px;
+    }
+
+    a {
+      color: #0b5cad;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 32px;
+      color: #5e6b7a;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>Finanzblick</h1>
+      <p class="subtitle">
+        Eine übersichtliche Haushaltsbuch-App zur lokalen Verwaltung persönlicher Finanzen.
+      </p>
+
+      <p>
+        Finanzblick hilft dabei, Einnahmen, Ausgaben, Kategorien und wiederkehrende Buchungen
+        strukturiert zu erfassen und auszuwerten. Die App ist für Nutzer gedacht, die ihre
+        privaten Finanzdaten nachvollziehbar verwalten möchten.
+      </p>
+
+      <h2>Lokale, verschlüsselte Datenspeicherung</h2>
+      <p>
+        Die Finanzdaten werden lokal auf dem Gerät des Nutzers in einer verschlüsselten
+        Datenbank gespeichert. Die App betreibt keinen eigenen Server für Finanzdaten und
+        der Anbieter hat zu keinem Zeitpunkt Zugriff auf die Inhalte oder Schlüssel des Nutzers.
+      </p>
+
+      <h2>Optionale Synchronisation zwischen mehreren Geräten</h2>
+      <p>
+        Wer Finanzblick auf mehreren Geräten nutzt, kann optional Ende-zu-Ende-verschlüsselte
+        Synchronisationsdaten abgleichen. Dafür stehen zwei Wege zur Wahl:
+      </p>
+      <p>
+        <strong>Lokaler Ordner:</strong> Finanzblick legt die verschlüsselten Sync-Dateien in
+        einem beliebigen, selbst gewählten Ordner ab. Wählt der Nutzer dafür einen Ordner, der
+        bereits von einem eigenen Cloud-Dienst (z. B. Dropbox, OneDrive, iCloud Drive oder
+        Nextcloud) auf dem Gerät synchronisiert wird, gelangen die verschlüsselten Dateien auf
+        diesem Weg automatisch auch in die eigene Cloud des Nutzers – ganz ohne, dass Finanzblick
+        eine eigene Verbindung zu diesem Dienst herstellt.
+      </p>
+      <p>
+        <strong>Google Drive:</strong> Alternativ bietet Finanzblick eine eingebaute Anbindung an
+        Google Drive. Dafür nutzt die App ausschließlich den app-spezifischen
+        Google-Drive-Speicherbereich (<code>drive.appdata</code>) und greift nicht auf normale
+        Dateien im Google Drive des Nutzers zu.
+      </p>
+      <p>
+        In beiden Fällen werden nur verschlüsselte Sync-Events und Snapshots abgelegt, damit
+        mehrere Geräte denselben Datenstand verwenden können. Die Nutzung ist freiwillig, muss
+        vom Nutzer aktiv eingerichtet werden und kann jederzeit beendet werden.
+      </p>
+
+      <h2>Datenschutz</h2>
+      <p>
+        Weitere Informationen zur Datenverarbeitung stehen in der Datenschutzerklärung.
+      </p>
+
+      <p class="links">
+        <a href="privacy.html">Datenschutzerklärung</a> ·
+        <a href="terms.html">Nutzungsbedingungen</a>
+      </p>
+
+      <footer>
+        Niklas Bockshecker · Kontakt: n.bockshecker@gmail.com
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
